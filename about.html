@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-16 sm:hidden burger fixed z-10 bg-white" style="width: 100%;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    <header>
+        <div class=" fixed bg-white w-full lis z-8 mt-6 md:mt-0">
+        <img src="assets/images/mashuptemplate.svg" class=" float-left m-5 ml-12 hidden md:block">
+        <div class=" md:float-right ">
+            <ul class="md:inline-flex mr-12">
+                <li class="m-3 px-2 py-2 text-gray-400"><a href="/index.html">Home</a></li>
+                <li class="m-3 px-2 py-2 text-gray-400"><a href="#">About</a></li>
+                <li class="m-3 px-2 py-2 text-gray-400"><a href="/pricing.html">Pricing</a></li>
+                <li class="m-3 px-2 py-2 text-gray-400"><a href="/contact.html">Contact</a></li>
+                <li class="m-3 bg-purple-700 text-white rounded px-5 py-2"><a href="/download.html">Download</a></li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <div class="h-20"></div>
+    <section class="ml-32 hidden md:block " style="width: 80%;">
+        <img src="assets/images/img-01.jpg">
+    </section>
+    <section class=" mt-32">
+        <h3 class="md:text-6xl text-3xl font-semibold text-center m-4 mb-12">Type something</h3>
+        <div class=" leading-7 md:ml-72 ml-6 " style="width: 60%;">
+            Auctor augue mauris augue neque. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Porta non pulvinar neque laoreet. Viverra ipsum nunc aliquet bibendum. Iaculis urna id volutpat lacus. Turpis egestas pretium aenean pharetra magna ac. Id cursus metus aliquam eleifend mi. Odio tempor orci dapibus ultrices in iaculis. Lacus luctus accumsan tortor posuere ac ut consequat semper. Tincidunt ornare massa eget egestas purus viverra accumsan. Odio euismod lacinia at quis. Sit amet nulla facilisi morbi. At varius vel pharetra vel turpis nunc eget lorem dolor. Feugiat vivamus at augue eget. Feugiat nisl pretium fusce id velit ut. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Ut placerat orci nulla pellentesque. Laoreet suspendisse interdum consectetur libero id.
+        </div>
+    </section>
+    <section class="grid grid-cols-2 mx-72 mt-16">
+        <img src="assets/images/img-03.jpg" class=" mr-12">
+        <img src="assets/images/img-02.jpg" class=" ml-12">
+    </section>
+    <section class="mt-16 leading-7 md:ml-72 ml-6" style="width: 60%;">
+        <p>Non blandit massa enim nec dui nunc mattis enim ut. Cursus in hac habitasse platea dictumst quisque sagittis purus Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit. Ipsum dolor sit amet consectetur adipiscing elit. Integer quis auctor elit sed. In pellentesque massa placerat duis ultricies. Interdum consectetur libero id faucibus nisl tincidunt. Condimentum mattis pellentesque id nibh tortor id aliquet</p>
+    </section>
+    <div class=" bg-gray-200 w-full h-px mt-32 mb-14"></div>
+    <footer class=" md:grid md:grid-cols-3 m-4">
+        <div class="md:ml-12 mr-3 w-80">
+            <h3 class="font-semibold text-xl">About us</h3>
+            <p class="my-6 leading-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti optio eveniet doloribus.</p>
+        </div>
+        <div>
+            <h3 class="font-semibold text-xl">Do you like? Share this!</h3>
+            <div class="inline-flex mt-3">
+                <a href="#"><img src="assets/images/734399_facebook_media_online_social_icon.svg" class="h-12 w-12 m-2"></a>
+                <a href="#"><img src="assets/images/734377_media_online_social_twitter_icon.svg" class="h-12 w-12 m-2"></a>
+                <a href="#"><img src="assets/images/1940923_linkedin_media_online_social_icon.svg" class="h-12 w-12 m-2"></a>
+            </div>
+            <p class="my-6 leading-2 w-80">© Untitled | Website created with Mashup Template/Unsplash</p>
+        </div>
+        <div>
+            <h3 class="font-semibold text-xl">Subscribe to Newsletter</h3>
+            <input type="text" class="border-2 border-gray-500 h-8 w-52 mt-6">
+            <button class="py-1 px-6 text-white bg-purple-400">ok</button>
+        </div>
+    </footer>
+    <script>
+        var burger = document.querySelector('.burger');
+        var lis = document.querySelector('.lis');
+        burger.addEventListener('click',function(){
+        if(lis.classList.contains('hidden')){
+        lis.classList.remove('hidden');
+        }else{
+        lis.classList.add('hidden');
+        }
+        })
+    </script>
+</body>
+</html>
